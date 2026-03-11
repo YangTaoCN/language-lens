@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 font-sans;
+}
+
+.hotspot {
+  outline: none;
+  background: transparent;
+  transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease;
+  cursor: pointer;
+}
+.hotspot:hover {
+  background: rgba(59, 130, 246, 0.2);
+}
+
+.hotspot.with-border {
+  outline: 2px solid rgba(59, 130, 246, 0.5);
+  background: rgba(59, 130, 246, 0.1);
+}
+
+.hotspot .hs-label {
+  display: none;
+  position: absolute;
+  bottom: 100%; /* Position it above the hotspot */
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: normal;
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+  font-size: 0.8rem;
+  text-align: center;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  pointer-events: none;
+  min-width: 120px;
+  max-width: 150px;
+  line-height: 1.4;
+  margin-bottom: 8px; /* Add some space between the hotspot and the tooltip */
+}
+.hotspot:hover .hs-label { display: block }
+
+.overlay-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.6);
+}
+
+.spinner {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 5px solid rgba(0,0,0,0.08);
+  border-top-color: rgba(59,130,246,1);
+  animation: spin 1s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg) } }
