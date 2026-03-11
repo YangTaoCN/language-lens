@@ -1,0 +1,530 @@
+
+> language-lens@0.1.0 dev
+> next dev
+
+   ▲ Next.js 14.1.0
+   - Local:        http://localhost:3002
+
+   Disabled SWC as replacement for Babel because of custom Babel configuration "babel.config.json" https://nextjs.org/docs/messages/swc-disabled
+ ✓ Ready in 1131ms
+ ○ Compiling / ...
+   Using external babel configuration from /Users/taoyang/projects/language-lens/babel.config.json
+ ✓ Compiled / in 1192ms (238 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled /api/vocab in 60ms (70 modules)
+ ✓ Compiled /api/translate in 86ms (72 modules)
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+ ✓ Compiled /api/phonetics in 29ms (74 modules)
+[Phonetics] Fetching for: Based, lang: en
+[Phonetics] Fetching for: Based, lang: en
+[Phonetics] No phonetics found for Based
+[Phonetics] No phonetics found for Based
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: were, lang: en
+[Phonetics] No phonetics found for were
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: upon, lang: en
+[Phonetics] No phonetics found for upon
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: technology,, lang: en
+[Phonetics] No phonetics found for technology,
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: wastewater, lang: en
+[Phonetics] No phonetics found for wastewater
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: technology,, lang: en
+[Phonetics] No phonetics found for technology,
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: disposal, lang: en
+[Phonetics] No phonetics found for disposal
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: of, lang: en
+[Phonetics] No phonetics found for of
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: particular, lang: en
+[Phonetics] No phonetics found for particular
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: construed, lang: en
+[Phonetics] No phonetics found for construed
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: particular, lang: en
+[Phonetics] No phonetics found for particular
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: implied,, lang: en
+[Phonetics] No phonetics found for implied,
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: arising, lang: en
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: be, lang: en
+[Phonetics] No phonetics found for arising
+[Phonetics] No phonetics found for be
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: any, lang: en
+[Phonetics] No phonetics found for any
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: any, lang: en
+[Phonetics] No phonetics found for any
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: components, lang: en
+[Phonetics] No phonetics found for components
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: implied,, lang: en
+[Phonetics] No phonetics found for implied,
+[Phonetics] Fetching for: completion., lang: en
+[Phonetics] No phonetics found for completion.
+[Phonetics] Fetching for: components, lang: en
+[Phonetics] No phonetics found for components
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: implied,, lang: en
+[Phonetics] No phonetics found for implied,
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: completion., lang: en
+[Phonetics] No phonetics found for completion.
+[Phonetics] Fetching for: particular, lang: en
+[Phonetics] No phonetics found for particular
+[Phonetics] Fetching for: company, lang: en
+[Phonetics] No phonetics found for company
+[Phonetics] Fetching for: be, lang: en
+[Phonetics] No phonetics found for be
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: which, lang: en
+✓ MyMemory翻译成功
+[Phonetics] No phonetics found for which
+[Phonetics] Fetching for: prospective, lang: en
+[Phonetics] No phonetics found for prospective
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: construed, lang: en
+[Phonetics] No phonetics found for construed
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: functioning, lang: en
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: from, lang: en
+[Phonetics] No phonetics found for functioning
+[Phonetics] No phonetics found for from
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: prospective, lang: en
+[Phonetics] No phonetics found for prospective
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: from, lang: en
+[Phonetics] No phonetics found for from
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: inspection, lang: en
+[Phonetics] No phonetics found for inspection
+ ✓ Compiled in 384ms (252 modules)
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: from, lang: en
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: concealed, lang: en
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: prospective, lang: en
+[Phonetics] No phonetics found for prospective
+[Phonetics] No phonetics found for from
+[Phonetics] No phonetics found for concealed
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: concealed, lang: en
+[Phonetics] No phonetics found for concealed
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: prospective, lang: en
+[Phonetics] No phonetics found for prospective
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: from, lang: en
+[Phonetics] No phonetics found for from
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: sewage, lang: en
+[Phonetics] Fetching for: Based, lang: en
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: which, lang: en
+[Phonetics] No phonetics found for Based
+[Phonetics] No phonetics found for sewage
+[Phonetics] No phonetics found for which
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: Based, lang: en
+[Phonetics] No phonetics found for Based
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: wastewater, lang: en
+✓ MyMemory翻译成功
+[Phonetics] No phonetics found for wastewater
+[Phonetics] Fetching for: proper, lang: en
+[Phonetics] No phonetics found for proper
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: Based, lang: en
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: wastewater, lang: en
+[Phonetics] No phonetics found for Based
+[Phonetics] No phonetics found for wastewater
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: on-site, lang: en
+[Phonetics] No phonetics found for on-site
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: on-site, lang: en
+[Phonetics] No phonetics found for on-site
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: Based, lang: en
+[Phonetics] No phonetics found for Based
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: technology,, lang: en
+[Phonetics] No phonetics found for technology,
+[Phonetics] Fetching for: disposal, lang: en
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: wastewater, lang: en
+[Phonetics] No phonetics found for disposal
+✓ MyMemory翻译成功
+[Phonetics] No phonetics found for wastewater
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: prospective, lang: en
+[Phonetics] No phonetics found for prospective
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: supervise, lang: en
+[Phonetics] No phonetics found for supervise
+[Phonetics] Fetching for: concealed, lang: en
+[Phonetics] No phonetics found for concealed
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: of, lang: en
+[Phonetics] No phonetics found for of
+[Phonetics] Fetching for: this, lang: en
+[Phonetics] No phonetics found for this
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: otherwise, lang: en
+[Phonetics] Fetching for: inspection, lang: en
+[Phonetics] No phonetics found for otherwise
+[Phonetics] No phonetics found for inspection
+[Phonetics] Fetching for: the, lang: en
+✓ MyMemory翻译成功
+[Phonetics] No phonetics found for the
+[Phonetics] Fetching for: by, lang: en
+[Phonetics] No phonetics found for by
+[Phonetics] Fetching for: proper, lang: en
+[Phonetics] No phonetics found for proper
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: monitor, lang: en
+[Phonetics] No phonetics found for monitor
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: and, lang: en
+[Phonetics] No phonetics found for and
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: system, lang: en
+[Phonetics] No phonetics found for system
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: may, lang: en
+✓ MyMemory翻译成功
+[Phonetics] No phonetics found for may
+[Phonetics] Fetching for: for, lang: en
+[Phonetics] Fetching for: particular, lang: en
+[Phonetics] No phonetics found for for
+[Phonetics] No phonetics found for particular
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: arising, lang: en
+[Phonetics] No phonetics found for arising
+[Phonetics] Fetching for: completion., lang: en
+[Phonetics] No phonetics found for completion.
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: completion., lang: en
+[Phonetics] No phonetics found for completion.
+[Phonetics] Fetching for: to, lang: en
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: components, lang: en
+[Phonetics] Fetching for: implied,, lang: en
+[Phonetics] No phonetics found for to
+[Phonetics] No phonetics found for components
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: company, lang: en
+[Phonetics] Fetching for: functioning, lang: en
+[Phonetics] No phonetics found for company
+[Phonetics] Fetching for: particular, lang: en
+[Phonetics] No phonetics found for functioning
+[Phonetics] Fetching for: which, lang: en
+[Phonetics] No phonetics found for implied,
+[Phonetics] Fetching for: disposal, lang: en
+[Phonetics] No phonetics found for which
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: sewage, lang: en
+[Phonetics] No phonetics found for disposal
+[Phonetics] No phonetics found for sewage
+[Phonetics] No phonetics found for particular
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: wastewater, lang: en
+[Phonetics] No phonetics found for wastewater
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: Based, lang: en
+[Phonetics] No phonetics found for Based
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: wastewater, lang: en
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: wastewater, lang: en
+[Phonetics] No phonetics found for wastewater
+[Phonetics] No phonetics found for wastewater
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: on-site, lang: en
+[Phonetics] No phonetics found for on-site
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: on-site, lang: en
+[Phonetics] No phonetics found for on-site
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: wastewater, lang: en
+[Phonetics] No phonetics found for wastewater
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: sewage, lang: en
+[Phonetics] No phonetics found for sewage
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: disposal, lang: en
+[Phonetics] No phonetics found for disposal
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: system., lang: en
+[Phonetics] No phonetics found for system.
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: supervise, lang: en
+[Phonetics] No phonetics found for supervise
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: otherwise, lang: en
+[Phonetics] No phonetics found for otherwise
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: disposal, lang: en
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: we, lang: en
+[Phonetics] No phonetics found for we
+[Phonetics] No phonetics found for disposal
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: system., lang: en
+[Phonetics] Fetching for: system., lang: en
+[Phonetics] No phonetics found for system.
+[Phonetics] No phonetics found for system.
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: company, lang: en
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: Our, lang: en
+[Phonetics] No phonetics found for company
+[Phonetics] No phonetics found for Our
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: period, lang: en
+[Phonetics] No phonetics found for period
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: 30, lang: en
+[Phonetics] Fetching for: system, lang: en
+[Phonetics] No phonetics found for system
+[Phonetics] No phonetics found for 30
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: warranty,, lang: en
+[Phonetics] No phonetics found for warranty,
+ ✓ Compiled in 842ms (236 modules)
+ ✓ Compiled /api/translate in 165ms (68 modules)
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+ ✓ Compiled /api/phonetics in 36ms (70 modules)
+[Phonetics] Fetching for: submit, lang: en
+[Phonetics] Fetching for: were, lang: en
+[Phonetics] Fetching for: submit, lang: en
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: were, lang: en
+[Phonetics] No phonetics found for were
+[Phonetics] No phonetics found for submit
+[Phonetics] No phonetics found for submit
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: were, lang: en
+[Phonetics] No phonetics found for were
+[Phonetics] No phonetics found for were
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: we, lang: en
+[Phonetics] No phonetics found for we
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: what, lang: en
+[Phonetics] No phonetics found for what
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: upon, lang: en
+[Phonetics] No phonetics found for upon
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: Based, lang: en
+[Phonetics] No phonetics found for Based
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: wastewater, lang: en
+[Phonetics] No phonetics found for wastewater
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: proper, lang: en
+[Phonetics] No phonetics found for proper
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: on-site, lang: en
+[Phonetics] No phonetics found for on-site
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: wastewater, lang: en
+[Phonetics] No phonetics found for wastewater
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: on-site, lang: en
+[Phonetics] No phonetics found for on-site
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: wastewater, lang: en
+[Phonetics] No phonetics found for wastewater
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: on-site, lang: en
+[Phonetics] No phonetics found for on-site
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: proper, lang: en
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: sewage, lang: en
+[Phonetics] No phonetics found for proper
+[Phonetics] No phonetics found for sewage
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: our, lang: en
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: any, lang: en
+[Phonetics] No phonetics found for our
+[Phonetics] No phonetics found for any
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: components, lang: en
+[Phonetics] No phonetics found for components
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: of, lang: en
+[Phonetics] No phonetics found for of
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: implied,, lang: en
+[Phonetics] No phonetics found for implied,
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: otherwise, lang: en
+[Phonetics] Fetching for: company, lang: en
+[Phonetics] No phonetics found for company
+[Phonetics] No phonetics found for otherwise
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: a, lang: en
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: considerable, lang: en
+[Phonetics] No phonetics found for considerable
+[Phonetics] No phonetics found for a
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: the, lang: en
+[Phonetics] No phonetics found for the
+ ✓ Compiled in 785ms (236 modules)
+ ✓ Compiled in 184ms (236 modules)
+ ✓ Compiled in 330ms (236 modules)
+ ✓ Compiled in 265ms (236 modules)
+ ✓ Compiled in 162ms (182 modules)
+ ✓ Compiled /api/translate in 344ms (68 modules)
+✓ MyMemory翻译成功
+ ✓ Compiled /api/phonetics in 62ms (70 modules)
+[Phonetics] Fetching for: report, lang: en
+[Phonetics] No phonetics found for report
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: properly, lang: en
+[Phonetics] No phonetics found for properly
+✓ MyMemory翻译成功
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: what, lang: en
+[Phonetics] Fetching for: shall, lang: en
+[Phonetics] No phonetics found for shall
+[Phonetics] No phonetics found for what
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: technology,, lang: en
+[Phonetics] No phonetics found for technology,
+✓ MyMemory翻译成功
+[Phonetics] Fetching for: of, lang: en
+[Phonetics] No phonetics found for of
+ ✓ Compiled in 167ms (182 modules)
+ ✓ Compiled in 133ms (182 modules)
+ ✓ Compiled in 88ms (182 modules)
+ ✓ Compiled in 91ms (182 modules)
+ ✓ Compiled in 1797ms (1684 modules)
+ ✓ Compiled /api/vocab in 87ms (74 modules)
+ ✓ Compiled in 403ms (1699 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/taoyang/projects/language-lens/.next/cache/webpack/server-development/0.pack.gz_' -> '/Users/taoyang/projects/language-lens/.next/cache/webpack/server-development/0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/taoyang/projects/language-lens/.next/cache/webpack/client-development/5.pack.gz_' -> '/Users/taoyang/projects/language-lens/.next/cache/webpack/client-development/5.pack.gz'
+ ✓ Compiled in 685ms (1684 modules)
+ ✓ Compiled in 518ms (1684 modules)
+ ✓ Compiled /api/vocab in 58ms (74 modules)
+ ✓ Compiled in 890ms (1699 modules)
+ ✓ Compiled in 304ms (1699 modules)
+ ✓ Compiled in 321ms (1699 modules)
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 14.1.0
+   - Local:        http://localhost:3002
+
+   Disabled SWC as replacement for Babel because of custom Babel configuration "babel.config.json" https://nextjs.org/docs/messages/swc-disabled
+ ✓ Ready in 1413ms
+   Using external babel configuration from /Users/taoyang/projects/language-lens/babel.config.json
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.1s (201 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ○ Compiling / ...
+ ✓ Compiled / in 2.7s (1687 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ○ Compiling / ...
+ ✓ Compiled / in 2.3s (1749 modules)
+ ✓ Compiled in 463ms (1749 modules)
+ ✓ Compiled in 1187ms (1749 modules)
+ ✓ Compiled in 291ms (263 modules)
+ ✓ Compiled / in 283ms (1749 modules)
+ ✓ Compiled in 663ms (1749 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 2.2s (1749 modules)
+ ✓ Compiled in 584ms (1749 modules)
+ ✓ Compiled in 774ms (1749 modules)
+ ✓ Compiled in 736ms (1749 modules)
+ReferenceError: useTranslation is not defined
+    at Home (webpack-internal:///./pages/index.js:89:7)
+    at renderWithHooks (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+ ⨯ pages/index.js (86:16) @ useTranslation
+ ⨯ ReferenceError: useTranslation is not defined
+    at Home (webpack-internal:///./pages/index.js:89:7)
+    at renderWithHooks (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+    at renderElement (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderContextProvider (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5931:3)
+    at renderElement (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6028:11)
+    at renderNodeDestructiveImpl (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7)
+    at renderElement (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+    at renderIndeterminateComponent (/Users/taoyang/projects/language-lens/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5786:7) {
+  page: '/'
+}
+[0m [90m 84 |[39m   }[0m
+[0m [90m 85 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 86 |[39m   [36mconst[39m { t } [33m=[39m useTranslation()[33m;[39m[0m
+[0m [90m    |[39m                [31m[1m^[22m[39m[0m
+[0m [90m 87 |[39m   [90m// ...[39m[0m
+[0m [90m 88 |[39m   [36masync[39m [36mfunction[39m handleSelect(text) {[0m
+[0m [90m 89 |[39m     setSelectedText(text)[33m;[39m[0m
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 660ms (1751 modules)
