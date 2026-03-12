@@ -103,12 +103,31 @@ export default function Home() {
   }
 
   function playPronunciation(textToSpeak = selectedText) {
-    if (!textToSpeak) return;
+    if (!textToSpeak || !window.speechSynthesis) {
+      return;
+    }
+
     const map = { ja: 'ja-JP', en: 'en-US', es: 'es-ES', fr: 'fr-FR', zh: 'zh-CN' };
-    const utter = new SpeechSynthesisUtterance(textToSpeak);
-    utter.lang = map[sourceLang] || sourceLang;
-    window.speechSynthesis.cancel();
-    window.speechSynthesis.speak(utter);
+    const utterance = new SpeechSynthesisUtterance(textToSpeak);
+    utterance.lang = map[sourceLang] || sourceLang;
+
+    const speak = () => {
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(utterance);
+    };
+
+    // The voices may not be loaded initially, especially on mobile.
+    // We need to wait for the voices to be loaded before speaking.
+    let voices = window.speechSynthesis.getVoices();
+    if (voices.length === 0) {
+      window.speechSynthesis.onvoiceschanged = () => {
+        speak();
+        // It's good practice to remove the event listener after it has been used.
+        window.speechSynthesis.onvoiceschanged = null;
+      };
+    } else {
+      speak();
+    }
   }
 
   function saveWord() {

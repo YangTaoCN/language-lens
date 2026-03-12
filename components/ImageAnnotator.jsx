@@ -1,6 +1,7 @@
 import React, {useEffect, useRef, useState} from 'react'
 import Tesseract from 'tesseract.js'
 import { useTranslation } from '../hooks/use-translation';
+import { useIsMobile } from '../hooks/use-is-mobile';
 
 import Spinner from './Spinner'
 
@@ -14,6 +15,7 @@ export default function ImageAnnotator({imageSrc, sourceLang, targetLang, onSele
   const [hoveredPhonetics, setHoveredPhonetics] = useState(null)
   const [imgLoaded, setImgLoaded] = useState(false)
   const { t } = useTranslation();
+  const isMobile = useIsMobile();
 
   useEffect(()=>{
     if(!imageSrc) return
@@ -45,6 +47,7 @@ export default function ImageAnnotator({imageSrc, sourceLang, targetLang, onSele
   },[imageSrc, sourceLang])
 
   async function handleHotspotHover(text){
+    if (isMobile) return;
     if(hoveredText === text) return
     setHoveredText(text)
     setHoveredTranslation(t('loading'))
@@ -86,6 +89,7 @@ export default function ImageAnnotator({imageSrc, sourceLang, targetLang, onSele
   }
 
   function handleHotspotLeave(e) {
+    if (isMobile) return;
     setHoveredText(null);
     setHoveredTranslation(null);
     setHoveredPhonetics(null);
