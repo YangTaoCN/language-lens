@@ -1,6 +1,6 @@
 import React from 'react'
 import {render, screen, fireEvent} from '@testing-library/react'
-import Home from '../index'
+import Home from '../pages/index'
 
 test('renders language selectors and upload input', ()=>{
   const {container} = render(<Home />)
