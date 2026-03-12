@@ -5,6 +5,10 @@ const nextConfig = {
     locales: ['en', 'zh'],
     defaultLocale: 'en',
   },
+  webpack: (config) => {
+    config.watchOptions.ignored.push('**/__tests__/**');
+    return config;
+  },
 };
 
 module.exports = nextConfig;
