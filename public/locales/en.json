@@ -7,6 +7,8 @@
   "camera": "Camera",
   "capture": "Capture",
   "close": "Close",
+  "cameraPreview": "Camera Preview",
+  "cameraInstruction": "Click \"Capture\" to get the image, or \"Close\" to cancel",
   "japanese": "Japanese (ja)",
   "english": "English (en)",
   "spanish": "Spanish (es)",

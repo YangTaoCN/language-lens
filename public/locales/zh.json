@@ -7,6 +7,8 @@
   "camera": "摄像头",
   "capture": "拍照",
   "close": "关闭",
+  "cameraPreview": "摄像头预览",
+  "cameraInstruction": "点击“拍照”获取图片，或“关闭”取消",
   "japanese": "日语 (ja)",
   "english": "英语 (en)",
   "spanish": "西班牙语 (es)",

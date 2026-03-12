@@ -34,17 +34,17 @@ export default function ImageAnnotator({imageSrc, sourceLang, targetLang, onSele
           text: w.text,
           bbox: w.bbox
         })))
+        setLoading(false)
+        onOcrState?.({loading:false, error: null})
       })
       .catch((err)=>{
         setBoxes([])
-        setError(err?.message || t('translationFailed'))
-        onOcrState?.({loading:false, error: err?.message || t('translationFailed')})
-      })
-      .finally(()=>{
+        const errorMessage = err?.message || t('translationFailed');
+        setError(errorMessage)
         setLoading(false)
-        onOcrState?.({loading:false, error: error})
+        onOcrState?.({loading:false, error: errorMessage})
       })
-  },[imageSrc, sourceLang])
+  },[imageSrc, sourceLang, ocr, onOcrState, t])
 
   async function handleHotspotHover(text){
     if (isMobile) return;

@@ -1,4 +1,8 @@
+import { useTranslation } from '../hooks/use-translation';
+
 export default function CameraModal({isOpen, onClose, onCapture, videoRef, canvasRef}){
+  const { t } = useTranslation();
+
   return (
     <div style={{
       position: 'fixed',
@@ -22,7 +26,7 @@ export default function CameraModal({isOpen, onClose, onCapture, videoRef, canva
         boxShadow: '0 20px 25px rgba(0,0,0,0.1)'
       }}>
         <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px'}}>
-          <h2 style={{fontSize: '20px', fontWeight: '600', margin: 0}}>摄像头预览</h2>
+          <h2 style={{fontSize: '20px', fontWeight: '600', margin: 0}}>{t('cameraPreview')}</h2>
           <button
             onClick={onClose}
             style={{background: 'none', border: 'none', fontSize: '24px', cursor: 'pointer', color: '#999', padding: 0, lineHeight: 1}}
@@ -49,7 +53,7 @@ export default function CameraModal({isOpen, onClose, onCapture, videoRef, canva
             onMouseEnter={e => e.target.style.backgroundColor = '#16a34a'}
             onMouseLeave={e => e.target.style.backgroundColor = '#22c55e'}
           >
-            📸 拍照
+            📸 {t('capture')}
           </button>
           <button
             onClick={onClose}
@@ -57,12 +61,12 @@ export default function CameraModal({isOpen, onClose, onCapture, videoRef, canva
             onMouseEnter={e => e.target.style.backgroundColor = '#6b7280'}
             onMouseLeave={e => e.target.style.backgroundColor = '#9ca3af'}
           >
-            关闭
+            {t('close')}
           </button>
         </div>
         
         <p style={{textAlign: 'center', color: '#999', fontSize: '14px', margin: '8px 0 0 0'}}>
-          点击"拍照"获取图片，或"关闭"取消
+          {t('cameraInstruction')}
         </p>
       </div>
     </div>
