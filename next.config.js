@@ -6,7 +6,12 @@ const nextConfig = {
     defaultLocale: 'en',
   },
   webpack: (config) => {
-    config.watchOptions.ignored.push('**/__tests__/**');
+    // Safely add to the ignored list, whether it's a string or an array
+    const ignored = Array.isArray(config.watchOptions.ignored)
+      ? config.watchOptions.ignored
+      : [config.watchOptions.ignored].filter(Boolean);
+
+    config.watchOptions.ignored = [...ignored, '**/__tests__/**'];
     return config;
   },
 };
