@@ -7,7 +7,7 @@ import MobileSheet from '../components/MobileSheet';
 
 export default function Home() {
   const { t } = useTranslation();
-  const [sourceLang, setSourceLang] = useState('ja');
+  const [sourceLang, setSourceLang] = useState('en');
   const [targetLang, setTargetLang] = useState('zh');
   const [imageSrc, setImageSrc] = useState(null);
   const [selectedText, setSelectedText] = useState(null);
